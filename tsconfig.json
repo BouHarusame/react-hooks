@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": [
+      "dom"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "sourceMap": true,
+    "noEmit": true,
+    "jsx": "preserve"
+  },
+  "include": [
+    "packages",
+    "apps",
+    "config"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
+}
